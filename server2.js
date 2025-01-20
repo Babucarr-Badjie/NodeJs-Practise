@@ -20,6 +20,7 @@ const server = createServer((req, res) => {
 
     if (user) {
       res.setHeader("Content-Type", "application/json");
+      const statusCode = 200;
       res.write(JSON.stringify(user));
       res.end();
     } else {
