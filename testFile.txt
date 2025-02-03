@@ -1,0 +1,2 @@
+Hello, I am writing this statement to the testFile.
+This is an appended text (meaning this statement is added to the file)
